@@ -4,7 +4,7 @@ import SingUpForm from './components/SingUpForm';
 function App() {
   return (
     <>
-      <div className="h-screen w-screen px-20 py-12 space-y-20 relative z-10">
+      <div className="px-20 my-12 space-y-20 relative z-10">
         {/*NAVBAR*/}
         <nav className="flex items-baseline text-white">
           <div className="[clip-path:circle(50%_at_50%_50%)] w-6 h-6 bg-gradient-to-r from-primary-500 to-primary-700 mr-3 transform translate-y-1/4" />
@@ -39,7 +39,7 @@ function App() {
           <SingUpForm className="w-[600px]" />
         </main>
       </div>
-      <div className="absolute top-0 left-0 w-full h-full">
+      <div className="fixed top-0 left-0 w-full h-full">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-dark-900 to-dark-900/80"></div>
         <img src={background} alt="Background image" className="w-full h-full object-cover" />
       </div>

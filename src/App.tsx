@@ -22,23 +22,24 @@ function App() {
         </nav>
 
         <main className="space-y-10">
-          {/*HEADER*/}
-          <header className="text-white space-y-2">
+          {/*TITLE*/}
+          <section className="text-white space-y-2">
             <span className="font-semibold text-sm text-dark-400 uppercase">Start for free</span>
             <div className="flex items-end">
-              <span className="font-semibold text-6xl">Create new account</span>
+              <span className="font-semibold text-6xl text-dark-200">Create new account</span>
               <div className="[clip-path:circle(50%_at_50%_50%)] w-3 h-3 bg-primary-500 transform -translate-y-3/4 ml-2" />
             </div>
             <span className="inline-block">
               <span className="text-dark-400">Already a member? </span>
               <span className="text-primary-500 cursor-pointer">Log In</span>
             </span>
-          </header>
+          </section>
 
           {/*FORM*/}
-          <SingUpForm className="w-[600px]" />
+          <SingUpForm className="w-[550px]" />
         </main>
       </div>
+      {/*IMAGE BACKGROUND*/}
       <div className="fixed top-0 left-0 w-full h-full">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-dark-900 to-dark-900/80"></div>
         <img src={background} alt="Background image" className="w-full h-full object-cover" />

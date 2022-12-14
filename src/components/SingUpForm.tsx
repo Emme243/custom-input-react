@@ -1,9 +1,13 @@
 function SingUpForm({ className }: { className?: string }) {
   return (
     <form className={`flex flex-col space-y-6 ${className}`}>
-      <div className="text-white font-semibold">Here comes the inputs</div>
+      <div className="text-white font-semibold">
+        =================== Here comes the inputs ===================
+      </div>
 
       <div />
+
+      {/*FORM BUTTONS*/}
       <div className="flex space-x-5">
         <button className="grow bg-dark-500 text-white font-semibold py-4 px-4 rounded-3xl shadow-lg text-sm hover:bg-dark-600">
           Change method
